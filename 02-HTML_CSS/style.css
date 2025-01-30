@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+/* header-navbar */
+
+.navbar{
+    height: 7vh;
+    background-color: #2776ef;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+.nav-main{
+    display: flex;
+    align-items: center;
+    margin-left: 17vw;
+}
+
+.nav-logo img{
+    height: 5vh;
+    width: 5vw;
+}
+
+.nav-search{
+    display: flex;
+    align-items: center;
+}
+
+.nav-searchbar{
+    height: 4vh;
+    border: none;
+    width: 30vw;
+    font-size: 0.8rem;
+    margin-left: 10px;
+}
+
+.nav-search i{
+    background-color: white;
+    color: #2776ef;
+    height: 4vh;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-ops{
+    display: flex;
+    align-items: center;
+    margin-right: 17vw;
+}
+
+.nav-login button{
+    color: #2776ef;
+    height: 3vh;
+    width: 5vw;
+    font-weight: 600;
+    background-color: white;
+    border: none;
+}
+
+.nav-more select{
+    color: white;
+    font-weight: 600;
+    background-color: #2776ef;
+    border: none;
+    margin-left: 30px;
+}
+
+.nav-cart{
+    color: white;
+    font-weight: 600;
+    font-size: 1.5vh;
+    margin-left: 30px;
+}
+
+.nav-cart i{
+    font-size: 1.5vh;
+}
+
+/* header-panel */
+
+.panel{
+    display: flex;
+    align-items: center;
+    height: 15vh;
+    justify-content: space-between; 
+    margin-left: 14vw;
+    margin-right: 14vw;
+}
+
+.box{
+    width: 6vw;
+    font-size: 0.8rem;
+}
+
+.box p{
+    margin-top: 1vh;
+    text-align: center;
+    width: 4vw;
+    font-size: 0.9rem;
+}
+
+.box-pic{
+    height: 9vh;
+    width: 4vw;
+}
+
+/* content-box-1 */
+
+main{
+    background-color: #e2e7e6;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content-1{
+    background-color: white;
+    height: 38vh;
+    width: 77vw;
+    margin: 20px 0px;
+    overflow: hidden;
+    position: relative;
+}
+
+.content-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 6vh;
+    border-bottom: 0.1px solid gray;
+}
+
+.content-head button {
+    margin-right: 20px;
+    height: 4vh;
+    font-size: 0.7rem;
+    width: 5vw;
+    border: none;
+    background-color: #2776ef;
+    color: white;
+}
+
+.content-head-1{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.content-head-1 p{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.time{
+    margin-left: 15px;
+    color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.time i{
+    margin-right: 5px;
+    font-size: 1.2rem;
+}
+
+.time p{
+    font-size: 0.9rem;
+    font-weight: 100;
+}
+
+.offer-img img{
+    margin: 20px 0px;
+    margin-left: 10px;
+}
+
+.sidebar-btn {
+    position: absolute;
+    right: 0;
+    bottom: 150px;
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 30px 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+.sidebar-btn:hover {
+    background-color: #e64a19;
+}
+
+.content-list{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.text-1{
+    width: 160px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 5px 0px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.text-2{
+    width: 160px;
+    margin: 5px 0px;
+    font-size: 0.9rem;
+    color: #1ca803;
+    text-align: center;
+}
+
+.text-3{
+    width: 160px;
+    margin: 5px 0px;
+    font-size: 0.9rem;
+    color: grey;
+    text-align: center;
+}
+
+.con-img{
+    margin: 15px 30px 5px 0px;
+}
+
+.content-2{
+    background-color: white;
+    height: 38vh;
+    width: 90vw;
+    margin-bottom: 20px;
+}
+
+.content-head2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 6vh;
+    border-bottom: 0.1px solid gray;
+}
+
+.content-head2 button{
+    margin-right: 20px;
+    height: 4vh;
+    font-size: 0.7rem;
+    width: 5vw;
+    border: none;
+    background-color: #2776ef;
+    color: white;
+}
+
+.head-text{
+    margin-left: 20px;
+}
+
+.sub-head-1{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-top: 3px;
+}
+
+.sub-head-2{
+    color: grey;
+    font-size: 0.8rem;
+    margin-top: 3px;
+}
