@@ -63,7 +63,6 @@ class Calculator {
             const radians = this.degreesToRadians(angle);
             console.log(radians);
             setCurrentInput(func(radians).toString());
-            addToHistory(angle, getCurrentInput());
             display.value = getCurrentInput();
         }
     }
@@ -93,21 +92,33 @@ class Calculator {
         switch (operation) {
             case 'square':
                 result = input * input;
+                setCurrentInput(result.toString());
+                addToHistory('Square of ' + value, getCurrentInput());
                 break;
             case 'squareroot':
                 result = Math.sqrt(input);
+                setCurrentInput(result.toString());
+                addToHistory('Squareroot of ' + value, getCurrentInput());
                 break;
             case 'powOfTen':
                 result = Math.pow(10, input);
+                setCurrentInput(result.toString());
+                addToHistory('powOfTen ' + value, getCurrentInput());
                 break;
             case 'log':
                 result = Math.log10(input);
+                setCurrentInput(result.toString());
+                addToHistory('log ' + value, getCurrentInput());
                 break;
             case 'ln':
                 result = Math.log(input);
+                setCurrentInput(result.toString());
+                addToHistory('ln ' + value, getCurrentInput());
                 break;
             case 'exp':
                 result = Math.exp(input);
+                setCurrentInput(result.toString());
+                addToHistory('Exp ' + value, getCurrentInput());
                 break;
             default:
                 alert('Unknown operation');
@@ -115,7 +126,7 @@ class Calculator {
         }
 
         setCurrentInput(result.toString());
-        addToHistory(value, getCurrentInput());
+        // addToHistory(value, getCurrentInput());
         display.value = getCurrentInput();
     }
 }

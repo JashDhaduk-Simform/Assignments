@@ -78,7 +78,7 @@ export function handleInput(value){
             alert('Please enter a valid number first.');
         } else {
             const result = calc.calculateFactorial(parseInt(currentInput));
-            addToHistory(currentInput, result);
+            addToHistory(currentInput + '!', result);
             currentInput = result; 
             display.value = currentInput;
         }
@@ -136,13 +136,19 @@ export function handleInput(value){
 
     // Trigonometry
     else if (value === 'Sin') {
+        let angle = currentInput;
         calc.calculateTrigonometric(currentInput, Math.sin);
+        addToHistory('Sin ' + angle, currentInput);
     } 
     else if (value === 'Cos') {
+        let angle = currentInput;
         calc.calculateTrigonometric(currentInput, Math.cos);
+        addToHistory('Cos ' + angle, currentInput);
     } 
     else if (value === 'Tan') {
+        let angle = currentInput;
         calc.calculateTrigonometric(currentInput, Math.tan);
+        addToHistory('Tan ' + angle, currentInput);
     }
 
     // decimal and negative numbers
