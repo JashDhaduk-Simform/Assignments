@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+  <users>
+    <user id="1">
+      <first_name>Jash</first_name>
+      <last_name>Dhaduk</last_name>
+      <email>jash.dhaduk@example.com</email>
+      <age>22</age>
+      <address>
+        <street>123 Main St</street>
+        <city>Ahemdabad</city>
+        <state>Gujarat</state>
+        <zip>320004</zip>
+      </address>
+      <is_active>true</is_active>
+    </user>
+    <user id="2">
+      <first_name>Jack</first_name>
+      <last_name>Smith</last_name>
+      <email>jack.smith@example.com</email>
+      <age>34</age>
+      <address>
+        <street>456 Oak St</street>
+        <city>Berlin</city>
+        <state>Berlin</state>
+        <zip>10117</zip>
+      </address>
+      <is_active>false</is_active>
+    </user>
+    <user id="3">
+      <first_name>Anant</first_name>
+      <last_name>Jogsan</last_name>
+      <email>anant.jogsan@example.com</email>
+      <age>28</age>
+      <address>
+        <street>789 Shyamal St</street>
+        <city>Rajkot</city>
+        <state>Gujarat</state>
+        <zip>382421</zip>
+      </address>
+      <is_active>true</is_active>
+    </user>
+  </users>
+  
+  <products>
+    <product product_id="101">
+      <name>Wireless Mouse</name>
+      <category>Electronics</category>
+      <price>400</price>
+      <in_stock>true</in_stock>
+    </product>
+    <product product_id="102">
+      <name>Bluetooth Headphones</name>
+      <category>Electronics</category>
+      <price>1500</price>
+      <in_stock>false</in_stock>
+    </product>
+    <product product_id="103">
+      <name>Coffee Maker</name>
+      <category>Appliances</category>
+      <price>4500</price>
+      <in_stock>true</in_stock>
+    </product>
+  </products>
+
+  <orders>
+    <order order_id="1001">
+      <user_id>1</user_id>
+      <product_id>101</product_id>
+      <quantity>1</quantity>
+      <order_date>12-02-2025</order_date>
+      <status>shipped</status>
+    </order>
+    <order order_id="1002">
+      <user_id>2</user_id>
+      <product_id>102</product_id>
+      <quantity>2</quantity>
+      <order_date>14-02-2025</order_date>
+      <status>pending</status>
+    </order>
+    <order order_id="1003">
+      <user_id>3</user_id>
+      <product_id>103</product_id>
+      <quantity>1</quantity>
+      <order_date>10-02-2025</order_date>
+      <status>delivered</status>
+    </order>
+  </orders>
+</data>

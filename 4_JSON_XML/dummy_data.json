@@ -1,0 +1,98 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "first_name": "Jash",
+        "last_name": "Dhaduk",
+        "email": "jash.dhaduk@example.com",
+        "age": 22,
+        "address": {
+          "street": "123 Main St",
+          "city": "Ahemdabad",
+          "state": "Gujarat",
+          "zip": "320004"
+        },
+        "is_active": true
+      },
+      {
+        "id": 2,
+        "first_name": "Jack",
+        "last_name": "Smith",
+        "email": "jack.smith@example.com",
+        "age": 34,
+        "address": {
+          "street": "456 Oak St",
+          "city": "Berlin",
+          "state": "Berlin",
+          "zip": "10117"
+        },
+        "is_active": false
+      },
+      {
+        "id": 3,
+        "first_name": "Anant",
+        "last_name": "Jogsan",
+        "email": "anant.jogsan@example.com",
+        "age": 28,
+        "address": {
+          "street": "789 Shyamal St",
+          "city": "Rajkot",
+          "state": "Gujarat",
+          "zip": "382421"
+        },
+        "is_active": true
+      }
+    ],
+
+    "products": [
+      {
+        "product_id": 101,
+        "name": "Wireless Mouse",
+        "category": "Electronics",
+        "price": 400,
+        "in_stock": true
+      },
+      {
+        "product_id": 102,
+        "name": "Bluetooth Headphones",
+        "category": "Electronics",
+        "price": 1500,
+        "in_stock": false
+      },
+      {
+        "product_id": 103,
+        "name": "Coffee Maker",
+        "category": "Appliances",
+        "price": 4500,
+        "in_stock": true
+      }
+    ],
+
+    "orders": [
+      {
+        "order_id": 1001,
+        "user_id": 1,
+        "product_id": 101,
+        "quantity": 1,
+        "order_date": "12-02-2025",
+        "status": "shipped"
+      },
+      {
+        "order_id": 1002,
+        "user_id": 2,
+        "product_id": 102,
+        "quantity": 2,
+        "order_date": "14-02-2025",
+        "status": "pending"
+      },
+      {
+        "order_id": 1003,
+        "user_id": 3,
+        "product_id": 103,
+        "quantity": 1,
+        "order_date": "10-02-2025",
+        "status": "delivered"
+      }
+    ]
+  }
+  
